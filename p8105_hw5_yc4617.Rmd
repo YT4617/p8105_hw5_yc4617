@@ -164,7 +164,7 @@ ggplot(city_results, aes(x = reorder(city_state, estimate), y = estimate)) +
   coord_flip() +
   theme_minimal()
 ```
-
+I notice the werid data about Tulsa, AL. The data shows only one case in Tulsa, AL and it's unsolved although Google website shows Tulsa is in OK rather than AL state. So its estimate is 0 and CI is from 0 to 1.  
 
 
 
